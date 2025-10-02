@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jun Matsubayashi Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar with drop‑down menu for research topics -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="jedi.html">JEDI</a></li>
+            <li class="dropdown">
+                <a href="research.html" class="dropbtn">Research ▾</a>
+                <div class="dropdown-content">
+                    <a href="research1.html">Research Topic 1</a>
+                    <a href="research2.html">Research Topic 2</a>
+                    <a href="research3.html">Research Topic 3</a>
+                    <a href="research4.html">Research Topic 4</a>
+                    <a href="research5.html">Research Topic 5</a>
+                </div>
+            </li>
+            <li><a href="instrumentation.html">Instrumentation</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero section with slideshow and welcome/contact information -->
+    <section class="hero">
+        <div class="slideshow-container" id="slideshow">
+            <!-- Each slide holds an image.  Placeholder images are used here and can be replaced later. -->
+            <div class="slide fade"><img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Slide 4"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/800x400?text=Slide+5" alt="Slide 5"></div>
+            
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="hero-text">
+            <div class="welcome">
+                <h1>Welcome to the Matsubayashi Lab</h1>
+                <p>This is a placeholder welcome message. A more detailed introduction will be added soon.</p>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>J. Matsubayashi<br>
+                Jun Matsubayashi, Ph.D<br>
+                Associate Professor<br>
+                Faculty of Marine Science and Technology<br>
+                Department of Marine Science and Technology<br>
+                Fukui Prefectural University, Japan<br>
+                1‑1 Gakuen‑cho, Obama City, Fukui 917‑0003, JAPAN<br>
+                Office: +81‑770‑52‑9600<br>
+                Email: matsuj@g.fpu.ac.jp
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview section with cards linking to each page -->
+    <section class="overview">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=People" alt="People">
+            <h3>People</h3>
+            <p>Meet the members of our group. This text will be updated with real content later.</p>
+            <a href="people.html" class="button">Learn more</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=JEDI" alt="JEDI">
+            <h3>JEDI</h3>
+            <p>Our commitment to Justice, Equity, Diversity, and Inclusion. Content will be added soon.</p>
+            <a href="jedi.html" class="button">Learn more</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=Research" alt="Research">
+            <h3>Research</h3>
+            <p>An overview of our research areas. More information will be available shortly.</p>
+            <a href="research1.html" class="button">Learn more</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=Instrumentation" alt="Instrumentation">
+            <h3>Instrumentation</h3>
+            <p>We develop and use cutting‑edge tools. Details will be provided in the future.</p>
+            <a href="instrumentation.html" class="button">Learn more</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=Publications" alt="Publications">
+            <h3>Publications</h3>
+            <p>A list of our recent papers and reports. This section will be expanded soon.</p>
+            <a href="publications.html" class="button">Learn more</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x180?text=Teaching" alt="Teaching">
+            <h3>Teaching</h3>
+            <p>Information on courses and educational activities. To be updated later.</p>
+            <a href="teaching.html" class="button">Learn more</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
