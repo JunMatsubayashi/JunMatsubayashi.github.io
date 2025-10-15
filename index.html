@@ -33,12 +33,12 @@
     <!-- Hero section containing only the full‑width slideshow -->
     <section class="hero">
         <div class="slideshow-container" id="slideshow">
-            <!-- Each slide holds a local image from the images folder. -->
-            <div class="slide fade"><img src="images/slide1.png" alt="Slide 1"></div>
-            <div class="slide fade"><img src="images/slide2.png" alt="Slide 2"></div>
-            <div class="slide fade"><img src="images/slide3.png" alt="Slide 3"></div>
-            <div class="slide fade"><img src="images/slide4.png" alt="Slide 4"></div>
-            <div class="slide fade"><img src="images/slide5.png" alt="Slide 5"></div>
+            <!-- Each slide holds a placeholder image from via.placeholder.com -->
+            <div class="slide fade"><img src="https://via.placeholder.com/1200x500?text=Slide+1" alt="Slide 1"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/1200x500?text=Slide+2" alt="Slide 2"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/1200x500?text=Slide+3" alt="Slide 3"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/1200x500?text=Slide+4" alt="Slide 4"></div>
+            <div class="slide fade"><img src="https://via.placeholder.com/1200x500?text=Slide+5" alt="Slide 5"></div>
             
             <!-- Navigation buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -49,8 +49,12 @@
     <!-- Separate section for the welcome message and contact information -->
     <section class="welcome-contact">
         <div class="welcome">
-            <h1>Welcome to the Matsubayashi Lab</h1>
-            <p>This is a placeholder welcome message. A more detailed introduction will be added soon.</p>
+            <!-- Logo positioned next to the welcome text.  You can replace this dummy image with your actual logo later. -->
+            <img src="images/logo.png" alt="Lab logo" class="welcome-logo">
+            <div class="welcome-text">
+                <h1>Welcome to the Matsubayashi Lab</h1>
+                <p>This is a placeholder welcome message. A more detailed introduction will be added soon.</p>
+            </div>
         </div>
         <div class="contact">
             <h2>Contact</h2>
@@ -70,40 +74,52 @@
     <!-- Overview section with cards linking to each page -->
     <section class="overview">
         <div class="card">
-            <img src="images/people.png" alt="People">
-            <h3>People</h3>
-            <p>Meet the members of our group. This text will be updated with real content later.</p>
-            <a href="people.html" class="button">Learn more</a>
+            <a href="people.html" class="card-image"><img src="images/people.png" alt="People"></a>
+            <div class="card-content">
+                <h3>People</h3>
+                <p>Meet the members of our group. This text will be updated with real content later.</p>
+                <a href="people.html" class="button">Learn more</a>
+            </div>
         </div>
         <div class="card">
-            <img src="images/jedi.png" alt="JEDI">
-            <h3>JEDI</h3>
-            <p>Our commitment to Justice, Equity, Diversity, and Inclusion. Content will be added soon.</p>
-            <a href="jedi.html" class="button">Learn more</a>
+            <a href="jedi.html" class="card-image"><img src="images/jedi.png" alt="JEDI"></a>
+            <div class="card-content">
+                <h3>JEDI</h3>
+                <p>Our commitment to Justice, Equity, Diversity, and Inclusion. Content will be added soon.</p>
+                <a href="jedi.html" class="button">Learn more</a>
+            </div>
         </div>
         <div class="card">
-            <img src="images/research.png" alt="Research">
-            <h3>Research</h3>
-            <p>An overview of our research areas. More information will be available shortly.</p>
-            <a href="research1.html" class="button">Learn more</a>
+            <a href="research1.html" class="card-image"><img src="images/research.png" alt="Research"></a>
+            <div class="card-content">
+                <h3>Research</h3>
+                <p>An overview of our research areas. More information will be available shortly.</p>
+                <a href="research1.html" class="button">Learn more</a>
+            </div>
         </div>
         <div class="card">
-            <img src="images/instrumentation.png" alt="Instrumentation">
-            <h3>Instrumentation</h3>
-            <p>We develop and use cutting‑edge tools. Details will be provided in the future.</p>
-            <a href="instrumentation.html" class="button">Learn more</a>
+            <a href="instrumentation.html" class="card-image"><img src="images/instrumentation.png" alt="Instrumentation"></a>
+            <div class="card-content">
+                <h3>Instrumentation</h3>
+                <p>We develop and use cutting‑edge tools. Details will be provided in the future.</p>
+                <a href="instrumentation.html" class="button">Learn more</a>
+            </div>
         </div>
         <div class="card">
-            <img src="images/publications.png" alt="Publications">
-            <h3>Publications</h3>
-            <p>A list of our recent papers and reports. This section will be expanded soon.</p>
-            <a href="publications.html" class="button">Learn more</a>
+            <a href="publications.html" class="card-image"><img src="images/publications.png" alt="Publications"></a>
+            <div class="card-content">
+                <h3>Publications</h3>
+                <p>A list of our recent papers and reports. This section will be expanded soon.</p>
+                <a href="publications.html" class="button">Learn more</a>
+            </div>
         </div>
         <div class="card">
-            <img src="images/teaching.png" alt="Teaching">
-            <h3>Teaching</h3>
-            <p>Information on courses and educational activities. To be updated later.</p>
-            <a href="teaching.html" class="button">Learn more</a>
+            <a href="teaching.html" class="card-image"><img src="images/teaching.png" alt="Teaching"></a>
+            <div class="card-content">
+                <h3>Teaching</h3>
+                <p>Information on courses and educational activities. To be updated later.</p>
+                <a href="teaching.html" class="button">Learn more</a>
+            </div>
         </div>
     </section>
 
